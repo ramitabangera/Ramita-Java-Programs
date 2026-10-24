@@ -1,9 +1,10 @@
-//Write a Java program to demonstrate Terminal Input and Output in Java.
+// Aim: Write a Java program to demonstrate Terminal Input and Output in Java.
+
+// Code
 import java.util.Scanner;
 
 public class Practical1A {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter your name: ");
@@ -19,3 +20,14 @@ public class Practical1A {
         sc.close();
     }
 }
+
+/*
+Sample Output:
+
+Enter your name: Ramita
+Enter your age: 19
+
+--- Student Details ---
+Name: Ramita
+Age: 19
+*/
